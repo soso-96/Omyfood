@@ -53,7 +53,10 @@ h1 {
     background: #EAEAEA;
     display: flex;
     align-items: center;
+    font-style: normal;
     justify-content: center;
+    font-size: initial;
+    font-weight: 400;
 }
 
 .location-text {
