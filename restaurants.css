@@ -399,6 +399,13 @@ a {
 
 
 @media (max-width: 767.98px) {
+    .decouvrez {
+        text-align: center;
+        font-size: 23px;
+        font-family: "Roboto";
+        font-weight: 295;
+    }
+    
     .card {
         background: #ffff;
         width: 100%;
