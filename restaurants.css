@@ -15,13 +15,14 @@ h1 {
 
 
 .fa-heart {
-    font-size: 24px;
-    /* Ajustez la taille du cœur selon vos besoins */
-    color: black;
-    /* Couleur du cœur par défaut */
-    transition: color 0.3s;
-    /* Ajouter une transition pour un effet fluide */
-    margin-left: -90%;
+    color: transparent;
+}
+.fa-heart:hover{
+    background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 
