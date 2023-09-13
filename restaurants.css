@@ -15,17 +15,21 @@ h1 {
 
 
 .fa-heart {
-    color: transparent;
+    color: black;
 }
 .fa-heart:hover{
     background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
     -webkit-background-clip: text;
     background-clip: text;
     opacity: 0;
-    transition: all 0.5s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
+p-foot{
+    color: white;
+    
 
+}
 
 .fa-circle-check {
     width: 0;
@@ -73,7 +77,7 @@ h1 {
 }
 
 h2 {
-    font-size: 31px;
+    font-size: 35px;
     text-align: center;
     font-family: "Roboto";
 }
@@ -160,7 +164,7 @@ h2 {
     gap: 20px;
     justify-content: center;
     padding: 3%;
-    padding-bottom: 7%;
+    padding-bottom: 12%;
 }
 
 .card {
@@ -211,12 +215,13 @@ h2 {
     margin: 0px;
     font-weight: 250;
 }
-
 footer {
+    display: flex;
+    align-items: center;
     background: #353535;
     color: white;
     padding: 15px;
-    margin-top: -3%;
+    margin-top: -40px;
 }
 
 .titre-footer {
@@ -224,7 +229,26 @@ footer {
     text-align: center;
     font-style: italic;
     margin-top: 15px;
-    margin-right: 20px;
+    margin-right: 50px;
+}
+
+ul {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0px;
+    padding: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
 }
 
 
@@ -303,6 +327,11 @@ footer {
 
 }
 
+.fa-heart:before {
+    content: "\f004";
+    margin-right: 20px;
+}
+
 .plats {
     display: flex;
     align-items: center;
@@ -331,8 +360,22 @@ footer {
 }
 
 .prix {
-    align-self: flex-end;
-    margin-right: 3%;
+    align-self: self-end;
+    margin-left: auto;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.menu-prix--{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99e2d0;
+    border-radius: 0px 15px 15px 0px;
+    width: 59px;
+    margin-right: -59px;
+    transition: all 0.5s ease-in-out;
 }
 
 .h3-plat {
@@ -377,6 +420,8 @@ footer {
     align-items: center;
 
 }
+
+
 
 
 @media (max-width: 767.98px) {
@@ -453,6 +498,7 @@ footer {
         display: flex;
         flex-direction: column;
         margin-bottom: 0;
+        padding-left: 20px;
     }
 
     .button-centre {
