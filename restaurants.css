@@ -1,7 +1,8 @@
-body{
+body {
     margin: 0;
     margin-right: -14px;
 }
+
 h1 {
 
     text-align: center;
@@ -12,7 +13,17 @@ h1 {
     font-family: "Shrikhand";
 }
 
-.coeur-plein{
+.heart__icon-menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 25px;
+   
+}
+
+.coeur-plein {
     position: absolute;
     opacity: 0;
     background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
@@ -20,26 +31,30 @@ h1 {
     background-clip: text;
     color: transparent;
 }
-.coeur-vide{
+
+.coeur-vide {
     position: absolute;
-    
-}
-.coeur-vide:hover{
-    opacity: 0;
+
 }
 
-.coeur-plein:hover{
+.coeur-vide:hover {
+    opacity: 0;
+    
+}
+
+.coeur-plein:hover {
     -webkit-background-clip: text;
     background-clip: text;
     opacity: 1;
     animation: fill 0.3s ease-in-out;
-    
+    transition-duration: 0,3;
+
 
 }
 
-p-foot{
+p-foot {
     color: white;
-    
+
 
 }
 
@@ -227,6 +242,7 @@ h2 {
     margin: 0px;
     font-weight: 250;
 }
+
 footer {
     display: flex;
     align-items: center;
@@ -330,7 +346,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 16px;
+    margin-right: 40px;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .entry {
@@ -343,10 +361,6 @@ a {
 
 }
 
-.fa-heart:before {
-    content: "\f004";
-    margin-right: 20px;
-}
 
 .plats {
     display: flex;
@@ -382,7 +396,8 @@ a {
     font-weight: 700;
     font-size: 15px;
 }
-.menu-prix--{
+
+.menu-prix-- {
 
     display: flex;
     justify-content: center;
@@ -447,7 +462,7 @@ a {
         font-family: "Roboto";
         font-weight: 295;
     }
-    
+
     .card {
         background: #ffff;
         width: 100%;
