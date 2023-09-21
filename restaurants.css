@@ -353,11 +353,18 @@ a {
     cursor: pointer;
     position: relative;
     margin-bottom: 15px;
+    
 }
+.plats:hover .box{
+    opacity: 1;
+    transform: scaleX(1);
+}
+
 
 .plats:hover{
     padding-right: 60px;
     transition: padding-right 0.3s ease-in-out;
+    
 }
 
 .prix {
