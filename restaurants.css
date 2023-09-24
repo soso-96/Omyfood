@@ -53,6 +53,7 @@ h1 {
 
 }
 
+
 p-foot {
     color: white;
 
@@ -244,6 +245,7 @@ footer {
     margin-top: 15px;
     margin-right: 50px;
     padding-left: 4%;
+    font-family: "Shrikhand";
 }
 
 ul {
@@ -292,7 +294,7 @@ a {
     text-align: center;
     font-size: 24px;
     margin: 0;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
     font-family: "Shrikhand";
     padding-top: 15px;
@@ -392,11 +394,16 @@ a {
     padding-top: 12px;
     margin: 0;
     margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Roboto';
 }
 .line{
     display: flex;
     justify-content: space-between;
     margin-right: 16px;
+    margin-right: 16px;
+    font-family: 'Roboto';
+    font-weight: 200;
 }
 .p{
     margin-left: 15px;
@@ -427,6 +434,8 @@ a {
 .button-centre {
     text-align: center;
     padding: 20px;
+    margin-top: 60px;
+    margin-bottom: -36px;
 }
 
 .button {
