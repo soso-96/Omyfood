@@ -12,8 +12,8 @@ h1 {
     font-family: "Shrikhand";
 }
 
-loader {
-    background: #99E2D0;
+.loader {
+    background: #e299dc;
     width: 100%;
     height: 100%;
     font-size: x-large;
@@ -23,7 +23,7 @@ loader {
     animation: loder 2s ease-in-out 2s forwards;
 }
 
-loader-icon {
+.loader-icon {
     vertical-align: middle;
     position: absolute;
     top: 50%;
@@ -32,7 +32,7 @@ loader-icon {
 }
 
 .loader-icon i {
-    color: #003A68;
+    color: #680032;
 }
 
 .anim {
@@ -74,7 +74,7 @@ loader-icon {
     background-clip: text;
     opacity: 1;
     animation: fill 0.3s ease-in-out;
-    transition-duration: 0, 3;
+    transition-duration: 0.3s;
 
 
 }
@@ -704,5 +704,54 @@ a {
     a {
         color: #FFF;
         text-decoration: none;
+    }
+}
+@keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loder {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+
+    100% {
+        opacity: 0;
     }
 }
