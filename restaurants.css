@@ -13,7 +13,7 @@ h1 {
 }
 
 .loader {
-    background:orange;
+    background: orange;
     width: 100%;
     height: 100%;
     font-size: x-large;
@@ -32,7 +32,7 @@ h1 {
 }
 
 .loader-icon i {
-    color:black;
+    color: black;
 }
 
 .anim {
@@ -177,10 +177,10 @@ h2 {
 }
 
 .button1 {
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 15px;
     text-decoration: none;
-    background: linear-gradient(to right, #9356DC, #FF79DA);
+    background: linear-gradient(to top, #9356DC, #FF79DA);
     color: white;
     border: none;
     font-family: "Roboto";
@@ -200,7 +200,8 @@ h2 {
     gap: 20px;
     justify-content: center;
     padding: 3%;
-    padding-bottom: 12%;
+    padding-bottom: 4%;
+    padding-top: 0;
 }
 
 .card {
@@ -251,7 +252,8 @@ h2 {
     margin: 0px;
     font-weight: 250;
 }
-.logo-footer{
+
+.logo-footer {
     height: 20px;
     color: white;
 }
@@ -317,7 +319,8 @@ a {
     color: #444444;
 }
 
-.title {
+.title,
+.title2 {
     flex: 1;
     text-align: center;
     font-size: 24px;
@@ -370,6 +373,9 @@ a {
     line-height: 18px;
     width: 42px;
     margin-left: 4%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: 10%;
 
 }
 
@@ -468,20 +474,32 @@ a {
 .button-centre {
     text-align: center;
     padding: 20px;
+    margin-top: 30px;
+}
+.button-centre2 {
+    text-align: center;
+    padding: 20px;
     margin-top: 60px;
-    margin-bottom: 10px;
+    margin-bottom: -9%;
 }
 
+
 .button {
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 15px;
     text-decoration: none;
-    background: linear-gradient(to right, #9356DC, #FF79DA);
+    background: linear-gradient(to top, #9356DC, #FF79DA);
     color: white;
     border: none;
     font-family: "Roboto";
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+.button-centre2:hover{
+    transform: scale(1.1);
+}
+.button-centre:hover{
+    transform: scale(1.1);
 }
 
 .but-fonct {
@@ -526,16 +544,31 @@ a {
         white-space: nowrap;
     }
 
-    .title {
+    .h3-plat {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .entry {
+        margin-top: 10%;
+        font-family: 'Roboto';
+        font-weight: 300;
+    }
+
+
+    .title2 {
         flex: 1;
         text-align: center;
-        font-size: 24px;
         margin: 0;
-        font-size: 25px;
+        font-size: 29px;
         font-style: italic;
         font-family: "Shrikhand";
         padding-top: 15px;
+        margin-left: -56%;
+        text-align: left;
     }
+
 
     .heart__icon-menu {
         position: relative;
@@ -551,20 +584,12 @@ a {
         display: flex;
         align-items: center;
         padding: 21px;
-        margin-left: 14%;
         margin-top: -10%;
     }
 
     .plats {
-        background-color: #fff;
-        border-radius: 20px;
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-        height: 69px;
-        margin-left: 45px;
-        margin-right: 45px;
-        cursor: pointer;
-        position: relative;
-        margin-bottom: 15px;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
 
@@ -649,17 +674,20 @@ a {
         padding: 11%;
         margin-top: 0;
     }
+    .button-centre2{
+        padding-bottom: 13%;
+    }
 
     .button {
-        border-radius: 20px;
-        padding: 10px;
+        border-radius: 25px;
+        padding: 15px;
         text-decoration: none;
-        background: linear-gradient(to right, #9356DC, #FF79DA);
+        background: linear-gradient(to top, #9356dc, #FF79DA);
         color: white;
         border: none;
         font-family: "Roboto";
-        padding-right: 20%;
-        padding-left: 20%;
+        padding-right: 15%;
+        padding-left: 15%;
     }
 
     .tittre {
@@ -706,6 +734,7 @@ a {
         text-decoration: none;
     }
 }
+
 @keyframes fill {
     0% {
         opacity: 0;
