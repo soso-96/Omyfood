@@ -495,11 +495,10 @@ a {
     padding-right: 6%;
     padding-left: 6%;
 }
-.button-centre2:hover{
-    transform: scale(1.1);
-}
-.button-centre:hover{
-    transform: scale(1.1);
+
+.button1:hover ,.button:hover{
+    background: linear-gradient(to top, #B88AF0, #FFA7E3); 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .but-fonct {
