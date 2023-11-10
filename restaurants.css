@@ -203,7 +203,7 @@ a {
     position: fixed;
     z-index: 9999;
     pointer-events: none;
-    animation: loder 2s ease-in-out 2s forwards;
+    animation: loder 1s ease-in-out 1s forwards;
 }
 
 .loader-icon {
