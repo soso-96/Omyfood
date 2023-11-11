@@ -12,11 +12,18 @@ h1 {
     font-family: "Shrikhand";
     margin-right: 3%;
 }
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+
+.titre-sect1 {
+    font-size: 31px;
+    text-align: center;
+    font-family: "Roboto";
 }
 
 .back-link {
@@ -31,7 +38,7 @@ h1 {
 }
 
 .logo-container {
-    flex-grow: 1; 
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -39,12 +46,6 @@ h1 {
     background: #F2F2F2;
     margin: 0;
     padding: 30px;
-}
-
-h2 {
-    font-size: 25px;
-    text-align: center;
-    font-family: "Roboto";
 }
 
 .p {
@@ -92,13 +93,6 @@ h2 {
     margin-right: 3%;
 }
 
-
-.decouvrez {
-    text-align: center;
-    font-size: 23px;
-    font-family: "Roboto";
-    font-weight: 295;
-}
 
 .card {
     background: #ffff;
@@ -176,8 +170,14 @@ h2 {
     text-align: left;
     padding: 10px;
     margin-left: 0%;
+    font-family: 'Roboto';
 }
 
+h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto";
+}
 footer {
     display: block;
     align-items: center;
@@ -343,7 +343,7 @@ input {
 
 .decouvrez {
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "Roboto";
     font-weight: 295;
 }
@@ -378,6 +378,7 @@ input {
 .fa-mobile-screen-button {
     color: #aaaaaa;
 }
+
 .button-centre2 {
     text-align: center;
     padding: 20px;
@@ -403,13 +404,15 @@ input {
     background: linear-gradient(to top, #B88AF0, #FFA7E3);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
+
 .button-centre {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
-.fa-list-ul , .fa-store {
+.fa-list-ul,
+.fa-store {
     color: #aaaaaa;
 }
 
@@ -563,25 +566,30 @@ input {
     color: #fff;
     padding-left: 20px;
 }
-.back-link{
+
+.back-link {
     color: #444444;
     margin-left: 0px;
     font-size: larger;
 }
 
-.title{
+.title {
     width: 197px;
 }
+
 .button-fonc:hover i {
     color: #9356dc;
 }
-.fa-utensils{
+
+.fa-utensils {
     color: white;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
+
 @keyframes fill {
     0% {
         opacity: 0;
@@ -644,7 +652,11 @@ a{
         font-family: "Shrikhand";
         margin-right: 3%;
     }
-    
+
+    .titre-sect1 {
+        font-size: 35px;
+    }
+
     input {
         border-top: none;
         border-bottom: none;
@@ -691,6 +703,7 @@ a{
         opacity: 1;
         animation: fill 0.3s ease-in-out;
     }
+
     .coeur-plein:not(:hover) {
         animation: unfill 0.3s ease-in-out;
     }
@@ -732,7 +745,7 @@ a{
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 16px;
         text-align: center;
         font-family: "Roboto";
     }
@@ -759,13 +772,6 @@ a{
 
     .sec-Fonctionnement {
         margin-bottom: 50px;
-    }
-
-    .decouvrez {
-        text-align: center;
-        font-size: 15px;
-        font-family: "Roboto";
-        font-weight: 295;
     }
 
     .tittre {
@@ -866,7 +872,7 @@ a{
         font-size: 12px;
         font-weight: bold;
     }
-    
+
     .logo-footer {
         height: 20px;
         color: white;
@@ -947,6 +953,9 @@ a{
         transition: padding-right 0.3s ease-in-out;
 
     }
+    .decouvrez{
+        font-size: 15px;
+    }
 
     .prix {
         align-self: self-end;
@@ -975,11 +984,12 @@ a{
     }
 
     .button-centre2 {
-        
+
         padding: 20px;
         margin-top: 60px;
         margin-bottom: -9%;
     }
+
     .button {
         border-radius: 25px;
         padding: 15px;
