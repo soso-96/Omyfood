@@ -575,7 +575,13 @@ input {
 .button-fonc:hover i {
     color: #9356dc;
 }
-
+.fa-utensils{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
 @keyframes fill {
     0% {
         opacity: 0;
@@ -974,8 +980,6 @@ input {
         margin-top: 60px;
         margin-bottom: -9%;
     }
-
-
     .button {
         border-radius: 25px;
         padding: 15px;
