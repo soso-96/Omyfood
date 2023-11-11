@@ -31,7 +31,7 @@ h1 {
 }
 
 .logo-container {
-    flex-grow: 1; /* Pour que le logo occupe tout l'espace disponible */
+    flex-grow: 1; 
     text-align: center;
 }
 
