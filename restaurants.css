@@ -12,6 +12,28 @@ h1 {
     font-family: "Shrikhand";
     margin-right: 3%;
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #444444;
+}
+
+.title {
+    margin: 0;
+}
+
+.logo-container {
+    flex-grow: 1; /* Pour que le logo occupe tout l'espace disponible */
+    text-align: center;
+}
 
 .section1 {
     background: #F2F2F2;
@@ -189,10 +211,6 @@ li {
     padding: 5px;
 }
 
-a {
-    color: #FFF;
-    text-decoration: none;
-}
 
 
 .loader {
@@ -550,13 +568,8 @@ input {
     margin-left: 0px;
     font-size: larger;
 }
-.header{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
+
 .title{
-    margin-left: 20%;
     width: 197px;
 }
 .button-fonc:hover i {
@@ -894,26 +907,8 @@ input {
         text-decoration: none;
     }
 
-    .header {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-    }
-
     .fa-arrow-left {
         font-size: 20px;
-    }
-
-    .back-link {
-        display: flex;
-        align-items: center;
-        margin-right: 10px;
-        text-decoration: none;
-        color: #444444;
-    }
-
-    .title {
-        margin-left: 20%;
     }
 
     .image-section {
